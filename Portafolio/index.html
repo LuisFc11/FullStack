@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portafolio Profesional</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+
+<body class="bg-black text-white font-sans">
+
+    <!-- HEADER -->
+    <header class="fixed w-full z-50 bg-black bg-opacity-90 shadow-md">
+        <div class="max-w-7xl mx-auto flex justify-between items-center px-6 py-4">
+            <h1 class="text-2xl font-bold text-cyan-400 animate-pulse">Luis Fc</h1>
+            <nav class="space-x-6 text-gray-300 text-sm uppercase font-semibold">
+                <a href="#inicio" class="hover:text-cyan-400 transition">Inicio</a>
+                <a href="#sobre" class="hover:text-cyan-400 transition">Sobre mí</a>
+                <a href="#proyectos" class="hover:text-cyan-400 transition">Proyectos</a>
+                <a href="#contacto" class="hover:text-cyan-400 transition">Contacto</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- HERO -->
+    <section class="relative overflow-hidden py-16 md:py-24">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col md:flex-row items-center">
+                <!-- Imagen con borde y efecto -->
+                <div class="relative z-10 md:w-1/2 mb-10 md:mb-0 md:-mr-5">
+                    <div
+                        class="bg-cyan-500 absolute top-0 left-0 w-full h-full -translate-x-4 translate-y-4 -z-10 rounded-lg">
+                    </div>
+                    <div
+                        class="relative overflow-hidden rounded-lg shadow-xl transform transition-transform hover:scale-105 duration-300">
+                        <img src="./src/img/barca.jpg" alt="Foto profesional" class="w-full h-auto object-cover" />
+                    </div>
+                </div>
+
+                <!-- Contenido del testimonio -->
+                <div class="md:w-1/2 bg-gray-900 text-white p-8 md:p-12 rounded-lg shadow-xl">
+                    <div class="text-6xl font-serif text-cyan-500 opacity-30 mb-6">"</div>
+                    <p class="text-xl md:text-2xl font-light mb-8">
+                        Gravida quam mi erat tortor neque molestie. Auctor aliquet at porttitor a enim nunc suscipit
+                        tincidunt nunc. Et non lorem tortor posuere. Nunc eu scelerisque interdum eget tellus non nibh
+                        scelerisque bibendum.
+                    </p>
+                    <div class="border-t border-gray-700 pt-6">
+                        <h4 class="text-4xl font-bold animate-pulse">Luis Flores Cruz</h4>
+                        <p class="text-cyan-400">Desarrollador Web Junior </p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+
+    <!-- SOBRE MÍ -->
+    <div class="bg-white py-24 sm:py-32">
+        <div class="mx-auto max-w-7xl px-6 lg:px-8">
+            <div class="mx-auto max-w-2xl lg:text-center">
+                <h2 class="text-base/7 font-semibold text-indigo-600">Deploy faster</h2>
+                <p
+                    class="mt-2 text-4xl font-semibold tracking-tight text-pretty text-gray-900 sm:text-5xl lg:text-balance">
+                    Everything you need to deploy your app</p>
+                <p class="mt-6 text-lg/8 text-gray-600">Quis tellus eget adipiscing convallis sit sit eget aliquet quis.
+                    Suspendisse eget egestas a elementum pulvinar et feugiat blandit at. In mi viverra elit nunc.</p>
+            </div>
+            <div class="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-4xl">
+                <dl class="grid max-w-xl grid-cols-1 gap-x-8 gap-y-10 lg:max-w-none lg:grid-cols-2 lg:gap-y-16">
+                    <div class="relative pl-16">
+                        <dt class="text-base/7 font-semibold text-gray-900">
+                            <div
+                                class="absolute top-0 left-0 flex size-10 items-center justify-center rounded-lg bg-indigo-600">
+                                <svg class="size-6 text-white" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                    stroke="currentColor" aria-hidden="true" data-slot="icon">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M12 16.5V9.75m0 0 3 3m-3-3-3 3M6.75 19.5a4.5 4.5 0 0 1-1.41-8.775 5.25 5.25 0 0 1 10.233-2.33 3 3 0 0 1 3.758 3.848A3.752 3.752 0 0 1 18 19.5H6.75Z" />
+                                </svg>
+                            </div>
+                            Push to deploy
+                        </dt>
+                        <dd class="mt-2 text-base/7 text-gray-600">Morbi viverra dui mi arcu sed. Tellus semper
+                            adipiscing suspendisse semper morbi. Odio urna massa nunc massa.</dd>
+                    </div>
+                    <div class="relative pl-16">
+                        <dt class="text-base/7 font-semibold text-gray-900">
+                            <div
+                                class="absolute top-0 left-0 flex size-10 items-center justify-center rounded-lg bg-indigo-600">
+                                <svg class="size-6 text-white" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                    stroke="currentColor" aria-hidden="true" data-slot="icon">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M16.5 10.5V6.75a4.5 4.5 0 1 0-9 0v3.75m-.75 11.25h10.5a2.25 2.25 0 0 0 2.25-2.25v-6.75a2.25 2.25 0 0 0-2.25-2.25H6.75a2.25 2.25 0 0 0-2.25 2.25v6.75a2.25 2.25 0 0 0 2.25 2.25Z" />
+                                </svg>
+                            </div>
+                            SSL certificates
+                        </dt>
+                        <dd class="mt-2 text-base/7 text-gray-600">Sit quis amet rutrum tellus ullamcorper ultricies
+                            libero dolor eget. Sem sodales gravida quam turpis enim lacus amet.</dd>
+                    </div>
+                    <div class="relative pl-16">
+                        <dt class="text-base/7 font-semibold text-gray-900">
+                            <div
+                                class="absolute top-0 left-0 flex size-10 items-center justify-center rounded-lg bg-indigo-600">
+                                <svg class="size-6 text-white" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                    stroke="currentColor" aria-hidden="true" data-slot="icon">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M16.023 9.348h4.992v-.001M2.985 19.644v-4.992m0 0h4.992m-4.993 0 3.181 3.183a8.25 8.25 0 0 0 13.803-3.7M4.031 9.865a8.25 8.25 0 0 1 13.803-3.7l3.181 3.182m0-4.991v4.99" />
+                                </svg>
+                            </div>
+                            Simple queues
+                        </dt>
+                        <dd class="mt-2 text-base/7 text-gray-600">Quisque est vel vulputate cursus. Risus proin diam
+                            nunc commodo. Lobortis auctor congue commodo diam neque.</dd>
+                    </div>
+                    <div class="relative pl-16">
+                        <dt class="text-base/7 font-semibold text-gray-900">
+                            <div
+                                class="absolute top-0 left-0 flex size-10 items-center justify-center rounded-lg bg-indigo-600">
+                                <svg class="size-6 text-white" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                    stroke="currentColor" aria-hidden="true" data-slot="icon">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M7.864 4.243A7.5 7.5 0 0 1 19.5 10.5c0 2.92-.556 5.709-1.568 8.268M5.742 6.364A7.465 7.465 0 0 0 4.5 10.5a7.464 7.464 0 0 1-1.15 3.993m1.989 3.559A11.209 11.209 0 0 0 8.25 10.5a3.75 3.75 0 1 1 7.5 0c0 .527-.021 1.049-.064 1.565M12 10.5a14.94 14.94 0 0 1-3.6 9.75m6.633-4.596a18.666 18.666 0 0 1-2.485 5.33" />
+                                </svg>
+                            </div>
+                            Advanced security
+                        </dt>
+                        <dd class="mt-2 text-base/7 text-gray-600">Arcu egestas dolor vel iaculis in ipsum mauris.
+                            Tincidunt mattis aliquet hac quis. Id hac maecenas ac donec pharetra eget.</dd>
+                    </div>
+                </dl>
+            </div>
+        </div>
+    </div>
+
+    <!-- PROYECTOS -->
+    <section id="proyectos" class="py-24 px-6 md:px-20 bg-red-900">
+        <h2 class="text-4xl text-white font-bold text-center mb-12">Proyectos</h2>
+        <div class="grid md:grid-cols-3 gap-8">
+            <div class="bg-black p-6 rounded-xl shadow-lg hover:scale-105 transition">
+                <img src="https://via.placeholder.com/300x180" alt="Proyecto 1" class="rounded-md mb-4">
+                <h3 class="text-xl font-semibold text-red-500 mb-2">Proyecto Uno</h3>
+                <p class="text-gray-300 mb-4">App moderna con React y Tailwind. UI intuitiva y 100% responsiva.</p>
+                <a href="#" class="text-red-400 hover:underline">Ver más →</a>
+            </div>
+            <div class="bg-black p-6 rounded-xl shadow-lg hover:scale-105 transition">
+                <img src="https://via.placeholder.com/300x180" alt="Proyecto 2" class="rounded-md mb-4">
+                <h3 class="text-xl font-semibold text-red-500 mb-2">Proyecto Dos</h3>
+                <p class="text-gray-300 mb-4">Sitio web corporativo, accesible y con diseño de alta gama.</p>
+                <a href="#" class="text-red-400 hover:underline">Ver más →</a>
+            </div>
+            <div class="bg-black p-6 rounded-xl shadow-lg hover:scale-105 transition">
+                <img src="https://via.placeholder.com/300x180" alt="Proyecto 3" class="rounded-md mb-4">
+                <h3 class="text-xl font-semibold text-red-500 mb-2">Proyecto Tres</h3>
+                <p class="text-gray-300 mb-4">Landing page impactante para startups innovadoras.</p>
+                <a href="#" class="text-red-400 hover:underline">Ver más →</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACTO -->
+    <section id="contacto" class="py-24 px-6 md:px-20 bg-black text-center">
+        <h2 class="text-4xl text-red-500 font-bold mb-6">Contáctame</h2>
+        <p class="text-gray-300 mb-8">¿Tienes un proyecto o una idea en mente? ¡Hablemos!</p>
+        <a href="mailto:tuemail@ejemplo.com"
+            class="bg-red-600 text-white py-3 px-6 rounded-full font-semibold hover:bg-red-700 transition">Enviar
+            correo</a>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="bg-black border-t border-red-800 py-6 text-center text-sm text-gray-500">
+        © 2025 TuNombre. Todos los derechos reservados.
+    </footer>
+
+</body>
+
+</html>
